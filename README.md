@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# End-to-End-Book-Recommender-System
-
 ## Workflow
 
 - config.yaml
@@ -71,7 +68,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build -t shivarambabar/bookapp:latest . 
 ```
 
 ```bash
@@ -79,7 +76,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp 
+docker run -d -p 8501:8501 shivarambabar/bookapp 
 ```
 
 ```bash
@@ -99,21 +96,13 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest 
+docker push shivarambabar/bookapp:latest 
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi shivarambabar/bookapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull shivarambabar/bookapp/stapp
 ```
-
-
-
-
-
-=======
-# Book-Recommendation-System
->>>>>>> 4c92db43915904681fd63ad965fab57ca0f6b633
