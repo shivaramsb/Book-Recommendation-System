@@ -104,5 +104,5 @@ docker rmi shivarambabar/bookapp:latest
 ```
 
 ```bash
-docker pull shivarambabar/bookapp/stapp
+docker pull shivarambabar/bookapp
 ```
